@@ -82,10 +82,10 @@
       </div>
       
       <!-- Contact Form -->
-      <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required /><br><br>
-        <input type="email" id="email" placeholder="Your Email" required /><br><br>
-        <textarea id="message" placeholder="Your Message" required></textarea><br><br>
+      <form id="contactForm" name="contact" method="POST" data-netlify="true"></form>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
     </section>
