@@ -1,0 +1,192 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff3e0;
+  color: #4e342e;
+  line-height: 1.6;
+}
+
+/* Header - Orange/Brown Theme */
+header {
+  background-color: #e65100;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.header-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+header nav a {
+  color: #ffcc80;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  padding: 8px 15px;
+  border: 2px solid #ffcc80;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+header nav a:hover {
+  background-color: #ffcc80;
+  color: #e65100;
+}
+
+/* Main Container - Vertical Layout */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Section Cards */
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #e65100;
+}
+
+section h2 {
+  color: #e65100;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffe0b2;
+}
+
+section h3 {
+  color: #bf360c;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* About Me */
+section p {
+  color: #5d4037;
+  font-size: 1rem;
+}
+
+/* Education List */
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin: 12px 0;
+  padding: 12px 15px;
+  background-color: #fff8e1;
+  border-left: 4px solid #e65100;
+  font-size: 1rem;
+}
+
+/* Contact Info */
+.contact-info {
+  background-color: #fff8e1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-left: 4px solid #e65100;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+/* ========================================
+   CONTACT FORM - FORCED VERTICAL LAYOUT
+   ======================================== */
+
+/* Make form a block element */
+#contactForm {
+  display: block;
+  width: 100%;
+}
+
+/* Each input takes full width and sits on new line */
+#contactForm input,
+#contactForm textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 2px solid #ffb74d;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  clear: both;
+}
+
+/* Remove any float that might be causing horizontal layout */
+#contactForm input {
+  float: none;
+}
+
+#contactForm textarea {
+  float: none;
+  min-height: 100px;
+}
+
+/* Focus state */
+#contactForm input:focus,
+#contactForm textarea:focus {
+  outline: none;
+  border-color: #e65100;
+  background-color: #fff8e1;
+}
+
+/* Button also full width and on new line */
+#contactForm button {
+  display: block;
+  width: 100%;
+  background-color: #e65100;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: 'Arial', sans-serif;
+  transition: background 0.3s ease;
+  clear: both;
+}
+
+#contactForm button:hover {
+  background-color: #bf360c;
+}
+
+/* Footer */
+footer {
+  background-color: #4e342e;
+  color: #ffcc80;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
