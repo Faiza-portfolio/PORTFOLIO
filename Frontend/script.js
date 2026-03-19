@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Send data to backend
-        fetch('http://localhost:3000/api/contact', {
+        fetch("https://portfolio-lf7i.onrender.com/api/contact"), {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
