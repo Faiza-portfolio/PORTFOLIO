@@ -7,15 +7,15 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #5c187c;
+  background-color: #743f64;
   color: #e1daec07;
   line-height: 1.6;
 }
 
 /* Header - Orange/Brown Theme */
 header {
-  background-color: #8c6ca160;
-  color: rgb(7, 5, 5);
+  background-color: #792eac60;
+  color: rgb(128, 25, 97);
   padding: 30px 20px;
   text-align: center;
 }
