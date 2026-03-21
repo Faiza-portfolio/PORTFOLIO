@@ -157,14 +157,14 @@ section ul li {
 #contactForm textarea:focus {
   outline: none;
   border-color: #e65100;
-  background-color: #fff8e1;
+  background-color: #ffe1ea86;
 }
 
 /* Button also full width and on new line */
 #contactForm button {
   display: block;
   width: 100%;
-  background-color: #e65100;
+  background-color: #e6006b;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -179,14 +179,15 @@ section ul li {
 }
 
 #contactForm button:hover {
-  background-color: #bf360c;
+  background-color: #bf0c57;
 }
 
 /* Footer */
 footer {
-  background-color: #4e342e;
-  color: #ffcc80;
+  background-color: #452e4e;
+  color: #80c2ff;
   text-align: center;
   padding: 20px;
   margin-top: 30px;
+  
 }
