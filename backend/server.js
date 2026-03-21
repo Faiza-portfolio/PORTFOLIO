@@ -49,6 +49,11 @@ app.post('/api/contact', (req, res) => {
         res.json({ success: true, message: 'Message sent successfully!' });
     });
 });
+// Keep backend alive
+const https = require('https');
+setInterval(() => {
+    https.get('https://portfolio-lf7i.onrender.com');
+}, 840000);
 
 // Start Server
 app.listen(PORT, () => {
