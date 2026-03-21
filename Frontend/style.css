@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #1a0a2e;
-  color: #f0e6ff;
+  background-color: #f0f8ff;
+  color: #2c3e50;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #6a0dad, #c71585);
+  background: linear-gradient(135deg, #0099cc, #00bfff);
   color: #ffffff;
   padding: 30px 20px;
   text-align: center;
@@ -30,7 +30,7 @@ header h1 {
   font-size: 1.1rem;
   margin-bottom: 15px;
   font-style: italic;
-  color: #f8c8ff;
+  color: #e0f7ff;
 }
 
 header nav a {
@@ -40,13 +40,13 @@ header nav a {
   font-size: 1rem;
   font-family: 'Arial', sans-serif;
   padding: 8px 15px;
-  border: 2px solid #ff80df;
+  border: 2px solid #ffffff;
   border-radius: 4px;
   display: inline-block;
 }
 
 header nav a:hover {
-  background-color: #c71585;
+  background-color: #007aaa;
   color: #ffffff;
 }
 
@@ -59,36 +59,36 @@ header nav a:hover {
 
 /* Section Cards */
 section {
-  background: linear-gradient(135deg, #2d0a4e, #4a0e6e);
+  background: #ffffff;
   padding: 25px;
   margin-bottom: 25px;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(199, 21, 133, 0.3);
-  border-top: 5px solid #c71585;
+  box-shadow: 0 4px 15px rgba(0, 153, 204, 0.15);
+  border-top: 5px solid #00bfff;
 }
 
 section h2 {
-  color: #ff80df;
+  color: #0099cc;
   font-size: 1.5rem;
   margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #6a0dad;
+  border-bottom: 2px solid #b3e8ff;
 }
 
 section h3 {
-  color: #f8c8ff;
+  color: #007aaa;
   font-size: 1.1rem;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-/* About Me */
+/* Paragraph text */
 section p {
-  color: #f0e6ff;
+  color: #2c3e50;
   font-size: 1rem;
 }
 
-/* Education List */
+/* Lists */
 section ul {
   list-style: none;
   padding: 0;
@@ -97,26 +97,26 @@ section ul {
 section ul li {
   margin: 12px 0;
   padding: 12px 15px;
-  background-color: rgba(106, 13, 173, 0.3);
-  border-left: 4px solid #c71585;
+  background-color: #e8f7ff;
+  border-left: 4px solid #00bfff;
   font-size: 1rem;
-  color: #f0e6ff;
+  color: #2c3e50;
   border-radius: 4px;
 }
 
 /* Contact Info */
 .contact-info {
-  background-color: rgba(106, 13, 173, 0.3);
+  background-color: #e8f7ff;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 20px;
-  border-left: 4px solid #c71585;
+  border-left: 4px solid #00bfff;
 }
 
 .contact-info p {
   margin: 8px 0;
   font-size: 1rem;
-  color: #f0e6ff;
+  color: #2c3e50;
 }
 
 /* Contact Form */
@@ -132,24 +132,24 @@ section ul li {
   padding: 12px;
   margin-top: 5px;
   margin-bottom: 15px;
-  border: 2px solid #6a0dad;
+  border: 2px solid #b3e8ff;
   border-radius: 4px;
   font-size: 1rem;
   font-family: 'Arial', sans-serif;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #f0e6ff;
+  background-color: #f8fcff;
+  color: #2c3e50;
 }
 
 #contactForm input::placeholder,
 #contactForm textarea::placeholder {
-  color: #c8a8e9;
+  color: #90c8e0;
 }
 
 #contactForm input:focus,
 #contactForm textarea:focus {
   outline: none;
-  border-color: #c71585;
-  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #00bfff;
+  background-color: #e8f7ff;
 }
 
 #contactForm textarea {
@@ -159,7 +159,7 @@ section ul li {
 #contactForm button {
   display: block;
   width: 100%;
-  background: linear-gradient(135deg, #6a0dad, #c71585);
+  background: linear-gradient(135deg, #0099cc, #00bfff);
   color: #ffffff;
   border: none;
   padding: 12px 20px;
@@ -172,24 +172,24 @@ section ul li {
 }
 
 #contactForm button:hover {
-  background: linear-gradient(135deg, #c71585, #6a0dad);
+  background: linear-gradient(135deg, #007aaa, #0099cc);
 }
 
 /* Thank You Message */
 #contactForm h3 {
-  color: #ff80df !important;
+  color: #0099cc !important;
   font-size: 1.2rem;
   text-align: center;
   padding: 20px;
-  background: rgba(106, 13, 173, 0.4);
+  background: #e8f7ff;
   border-radius: 8px;
-  border: 2px solid #c71585;
+  border: 2px solid #00bfff;
 }
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, #2d0a4e, #1a0a2e);
-  color: #f8c8ff;
+  background: linear-gradient(135deg, #0099cc, #00bfff);
+  color: #ffffff;
   text-align: center;
   padding: 20px;
   margin-top: 30px;
