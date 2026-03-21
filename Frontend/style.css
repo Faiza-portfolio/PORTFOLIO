@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #fff3e0;
-  color: #4e342e;
+  background-color: #f5e0ff;
+  color: #4e2e4a;
   line-height: 1.6;
 }
 
@@ -39,7 +39,7 @@ header nav a {
   font-size: 1rem;
   font-family: 'Arial', sans-serif;
   padding: 8px 15px;
-  border: 2px solid #ffcc80;
+  border: 2px solid #ff80df;
   border-radius: 4px;
   display: inline-block;
 }
@@ -58,7 +58,7 @@ header nav a:hover {
 
 /* Section Cards */
 section {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 25px;
   margin-bottom: 25px;
   border-radius: 10px;
