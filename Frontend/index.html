@@ -5,92 +5,203 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Faiza Mehek - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Header with Name and Details -->
-  <header>
-    <h1>FAIZA MEHEK</h1>
-    <p class="header-subtitle">1st Year BCA Cloud Computing Student at KJU</p>
-    <nav>
-      <a href="#about">About Me</a>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">FM</div>
+    <ul class="nav-links">
+      <a href="#about">About</a>
       <a href="#education">Education</a>
-      <a href="#skills">My Skills</a>
-      <a href="#contact">Contact Me</a>
-    </nav>
-  </header>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </ul>
+  </nav>
 
-  <!-- Main Container - Vertical Layout -->
-  <div class="container">
-    
-    <!-- About Me Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a passionate and dedicated first year BCA student specializing in Cloud Computing 
-        at KRISTU JAYANTI (DEEMED TO BE UNIVERSITY). I have a keen interest in web development, cloud technologies, 
-        and software engineering. I enjoy learning new technologies and building innovative solutions.
-      </p>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>BCA (Cloud Computing)</strong> - KRISTU JAYANTI UNIVERSITY- currently pursuing</li>
-        <li><strong>12th Grade</strong> - St Charles Women's PU college, 2025</li>
-        <li><strong>10th Grade</strong> - Goodwills Girls high school, 2023</li>
-      </ul>
-    </section>
-
-    <!-- My Skills Section -->
-    <section id="skills">
-      <h2>My Skills</h2>
-      
-      <h3>Technical Skills</h3>
-      <ul>
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>Python Basics</li>
-        <li>MS Office</li>
-      </ul>
-      
-      <h3>Soft Skills</h3>
-      <ul>
-        <li>Communication</li>
-        <li>Teamwork</li>
-  
-        <li>Time Management</li>
-      </ul>
-      
-      <h3>Cloud Computing</h3>
-      <ul>
-        <li>Cloud Concepts</li>
-        <li>AWS Basics</li>
-        <li>Google Cloud</li>
-      </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      
-      <!-- Your Contact Info -->
-      <div class="contact-info">
-        <p><strong>Email:</strong> faizamehek09@gmail.com</p>
-        <p><strong>Phone:</strong> +91 9353739319</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Faiza Mehek</h1>
+      <p class="hero-title">BCA Cloud Computing Student</p>
+      <p class="hero-subtitle">at Kristu Jayanti University</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Contact Me</a>
+        <a href="#about" class="btn-secondary">About Me</a>
       </div>
-      
-      <!-- Contact Form -->
-      <form id="contactForm" name="contact" method="POST" data-netlify="true" action="./thanks.html">
-        <input type="text" id="name" name="name" placeholder="Your Name" required /><br><br>
-        <input type="email" id="email" name="email" placeholder="Your Email" required /><br><br>
-        <textarea id="message" name="message" placeholder="Your Message" required></textarea><br><br>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+    </div>
+    <div class="hero-image">
+      <div class="hero-circle">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+  </section>
 
-  </div>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-card">
+        <div class="about-icon">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+        <div class="about-text">
+          <p>
+            I am a passionate and dedicated first year BCA student specializing in 
+            Cloud Computing at Kristu Jayanti (Deemed to be University). I have a keen 
+            interest in web development, cloud technologies, and software engineering. 
+            I enjoy learning new technologies and building innovative solutions.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <span>faizamehek09@gmail.com</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 9353739319</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bangalore, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">My <span>Education</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-university"></i></div>
+          <div class="timeline-content">
+            <h3>BCA (Cloud Computing)</h3>
+            <p class="timeline-place">Kristu Jayanti University</p>
+            <p class="timeline-date">2025 - Present</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-school"></i></div>
+          <div class="timeline-content">
+            <h3>12th Grade</h3>
+            <p class="timeline-place">St Charles Women's PU College</p>
+            <p class="timeline-date">2025</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <h3>10th Grade</h3>
+            <p class="timeline-place">Goodwills Girls High School</p>
+            <p class="timeline-date">2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+          <h3>Technical Skills</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> HTML & CSS</li>
+            <li><i class="fas fa-check"></i> JavaScript</li>
+            <li><i class="fas fa-check"></i> Python Basics</li>
+            <li><i class="fas fa-check"></i> MS Office</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-users"></i></div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Communication</li>
+            <li><i class="fas fa-check"></i> Teamwork</li>
+            <li><i class="fas fa-check"></i> Time Management</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Cloud Computing</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Cloud Concepts</li>
+            <li><i class="fas fa-check"></i> AWS Basics</li>
+            <li><i class="fas fa-check"></i> Google Cloud</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <div class="contact-wrapper">
+
+        <div class="contact-info-box">
+          <h3>Get In Touch</h3>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <p class="contact-label">Email</p>
+              <p>faizamehek09@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p>+91 9353739319</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <p class="contact-label">Location</p>
+              <p>Bangalore, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <form id="contactForm">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label>Your Email</label>
+              <input type="email" id="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+              <label>Your Message</label>
+              <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
