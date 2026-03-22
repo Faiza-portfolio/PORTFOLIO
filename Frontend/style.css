@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f8ff;
+  background-color: #f4f6f8;
   color: #2c3e50;
   line-height: 1.6;
 }
@@ -33,16 +33,13 @@ body {
   width: 100%;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 15px rgba(0, 153, 204, 0.15);
+  box-shadow: 0 2px 15px rgba(36, 59, 74, 0.15);
 }
 
 .nav-logo {
   font-size: 24px;
   font-weight: 700;
-  color: #0099cc;
-  background: linear-gradient(135deg, #0099cc, #00bfff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #243B4A;
 }
 
 .nav-links {
@@ -60,7 +57,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #0099cc;
+  color: #243B4A;
 }
 
 /* ===========================
@@ -68,7 +65,7 @@ body {
 =========================== */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0099cc, #00bfff);
+  background: linear-gradient(135deg, #243B4A, #3a5a6e);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,7 +74,7 @@ body {
 }
 
 .hero-greeting {
-  color: #e0f7ff;
+  color: #a8c4d0;
   font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 5px;
@@ -93,13 +90,13 @@ body {
 
 .hero-title {
   font-size: 1.2rem;
-  color: #e0f7ff;
+  color: #d0e4ec;
   font-weight: 500;
 }
 
 .hero-subtitle {
   font-size: 0.95rem;
-  color: #b3e8ff;
+  color: #a8c4d0;
   margin-bottom: 30px;
 }
 
@@ -111,7 +108,7 @@ body {
 
 .btn-primary {
   background: #ffffff;
-  color: #0099cc;
+  color: #243B4A;
   padding: 12px 28px;
   border-radius: 30px;
   text-decoration: none;
@@ -124,7 +121,7 @@ body {
 }
 
 .btn-primary:hover {
-  background: #e0f7ff;
+  background: #d0e4ec;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
@@ -144,7 +141,7 @@ body {
 
 .btn-secondary:hover {
   background: #ffffff;
-  color: #0099cc;
+  color: #243B4A;
   transform: translateY(-2px);
 }
 
@@ -158,8 +155,8 @@ body {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
-  border: 4px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+  border: 4px solid rgba(255, 255, 255, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,7 +169,7 @@ body {
 =========================== */
 .section {
   padding: 80px 0;
-  background: #f0f8ff;
+  background: #f4f6f8;
 }
 
 .section-alt {
@@ -188,7 +185,7 @@ body {
 }
 
 .section-title span {
-  color: #0099cc;
+  color: #243B4A;
 }
 
 /* ===========================
@@ -200,14 +197,14 @@ body {
   background: #ffffff;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 153, 204, 0.1);
-  border-left: 5px solid #0099cc;
+  box-shadow: 0 5px 20px rgba(36, 59, 74, 0.1);
+  border-left: 5px solid #243B4A;
   align-items: flex-start;
 }
 
 .about-icon {
   font-size: 50px;
-  color: #0099cc;
+  color: #243B4A;
   min-width: 60px;
 }
 
@@ -233,12 +230,12 @@ body {
 }
 
 .detail-item i {
-  color: #0099cc;
+  color: #243B4A;
   width: 20px;
 }
 
 /* ===========================
-   EDUCATION / TIMELINE
+   EDUCATION TIMELINE
 =========================== */
 .timeline {
   display: flex;
@@ -252,10 +249,10 @@ body {
   display: flex;
   gap: 20px;
   align-items: flex-start;
-  background: #f0f8ff;
+  background: #f4f6f8;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 153, 204, 0.1);
+  box-shadow: 0 3px 10px rgba(36, 59, 74, 0.1);
   transition: transform 0.3s;
 }
 
@@ -264,7 +261,7 @@ body {
 }
 
 .timeline-icon {
-  background: linear-gradient(135deg, #0099cc, #00bfff);
+  background: linear-gradient(135deg, #243B4A, #3a5a6e);
   color: #ffffff;
   width: 50px;
   height: 50px;
@@ -284,7 +281,7 @@ body {
 }
 
 .timeline-place {
-  color: #0099cc;
+  color: #243B4A;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -308,19 +305,19 @@ body {
   background: #ffffff;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 153, 204, 0.1);
+  box-shadow: 0 5px 20px rgba(36, 59, 74, 0.1);
   transition: transform 0.3s;
   text-align: center;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 153, 204, 0.2);
+  box-shadow: 0 10px 25px rgba(36, 59, 74, 0.2);
 }
 
 .skill-card-icon {
   font-size: 2.5rem;
-  color: #0099cc;
+  color: #243B4A;
   margin-bottom: 15px;
 }
 
@@ -330,7 +327,7 @@ body {
   color: #2c3e50;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #b3e8ff;
+  border-bottom: 2px solid #a8c4d0;
 }
 
 .skill-card ul {
@@ -348,7 +345,7 @@ body {
 }
 
 .skill-card ul li i {
-  color: #0099cc;
+  color: #243B4A;
   font-size: 0.8rem;
 }
 
@@ -363,7 +360,7 @@ body {
 }
 
 .contact-info-box {
-  background: linear-gradient(135deg, #0099cc, #00bfff);
+  background: linear-gradient(135deg, #243B4A, #3a5a6e);
   padding: 35px;
   border-radius: 15px;
   color: #ffffff;
@@ -386,12 +383,12 @@ body {
 .contact-item i {
   font-size: 1.2rem;
   margin-top: 3px;
-  color: #e0f7ff;
+  color: #a8c4d0;
 }
 
 .contact-label {
   font-size: 0.8rem;
-  color: #b3e8ff;
+  color: #a8c4d0;
   margin-bottom: 2px;
 }
 
@@ -401,10 +398,10 @@ body {
 }
 
 .contact-form-box {
-  background: #f0f8ff;
+  background: #f4f6f8;
   padding: 35px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 153, 204, 0.1);
+  box-shadow: 0 5px 20px rgba(36, 59, 74, 0.1);
 }
 
 .form-group {
@@ -423,7 +420,7 @@ body {
 .form-group textarea {
   width: 100%;
   padding: 12px 15px;
-  border: 2px solid #b3e8ff;
+  border: 2px solid #a8c4d0;
   border-radius: 8px;
   font-size: 0.95rem;
   font-family: 'Poppins', sans-serif;
@@ -435,7 +432,7 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #0099cc;
+  border-color: #243B4A;
 }
 
 .form-group textarea {
@@ -444,7 +441,7 @@ body {
 }
 
 .contact-form-box .btn-primary {
-  background: linear-gradient(135deg, #0099cc, #00bfff);
+  background: linear-gradient(135deg, #243B4A, #3a5a6e);
   color: #ffffff;
   width: 100%;
   padding: 14px;
@@ -457,18 +454,18 @@ body {
 }
 
 .contact-form-box .btn-primary:hover {
-  background: linear-gradient(135deg, #007aaa, #0099cc);
+  background: linear-gradient(135deg, #1a2c38, #243B4A);
   color: #ffffff;
 }
 
 /* Thank you message */
 #contactForm h3 {
-  color: #0099cc;
+  color: #243B4A;
   text-align: center;
   padding: 20px;
-  background: #e8f7ff;
+  background: #d0e4ec;
   border-radius: 8px;
-  border: 2px solid #00bfff;
+  border: 2px solid #243B4A;
   font-size: 1.1rem;
 }
 
@@ -476,7 +473,7 @@ body {
    FOOTER
 =========================== */
 footer {
-  background: linear-gradient(135deg, #0099cc, #00bfff);
+  background: linear-gradient(135deg, #243B4A, #3a5a6e);
   color: #ffffff;
   text-align: center;
   padding: 25px;
