@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-               
-           contactForm.innerHTML = '<h3 style="color:#243B4A;text-align:center;padding:20px;background:#d0e4ec;border-radius:8px;border:2px solid #243B4A;">✅ Thank you! Your message has been sent successfully!</h3>';
-        })
+             document.querySelector('.contact-form-box').innerHTML = '<h3 style="color:#243B4A;text-align:center;padding:30px;background:#d0e4ec;border-radius:8px;border:2px solid #243B4A;font-size:1.1rem;">✅ Thank you! Your message has been sent successfully!</h3>';
+}  
+           
         .catch(() => {
             alert('Error sending message. Please try again.');
         });
